@@ -79,9 +79,9 @@ ACCEL_XOUT_H = 0x3B
 GYRO_XOUT_H = 0x43
 
 # Initialize I2C
-sda = Pin(20)  # Define your SDA pin
-scl = Pin(21)  # Define your SCL pin
-i2c = I2C(1, scl=scl, sda=sda, freq=400000)  # Use I2C1
+sda = Pin(0)  # Define your SDA pin
+scl = Pin(1)  # Define your SCL pin
+i2c = I2C(0, scl=scl, sda=sda, freq=400000)  # Use I2C1
 
 def mpu6050_init():
     i2c.writeto_mem(MPU6050_ADDR, PWR_MGMT_1, b'\x00')  # Wake up MPU6050
@@ -118,9 +118,16 @@ while True:
 ## **OUTPUT:**  
 When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
 ```
-Accel: X=0.02g, Y=-0.01g, Z=1.00g | Gyro: X=0.05°/s, Y=-0.02°/s, Z=0.01°/s
-Accel: X=0.03g, Y=-0.02g, Z=1.01g | Gyro: X=0.06°/s, Y=-0.03°/s, Z=0.02°/s
-...
+![Screenshot 2025-03-24 110354](https://github.com/user-attachments/assets/bb28e6ca-6783-4ff3-8499-012f01afe263)
+
+![Screenshot 2025-03-24 110419](https://github.com/user-attachments/assets/ec2a712a-a413-4930-82ea-ecb82ad6e1dc)
+
+
+![Screenshot 2025-03-24 110537](https://github.com/user-attachments/assets/a590dd49-51b6-4eb4-bdc4-e195facb2d7f)
+
+
+
+
 ```
 ---
 
