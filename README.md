@@ -2,10 +2,10 @@
 
 ---
 
-### **NAME:**  
-### **DEPARTMENT:**  
-### **ROLL NO:**  
-### **DATE OF EXPERIMENT:**  
+### **NAME:** M.K.Suriya prakash 
+### **DEPARTMENT:**Iot  
+### **ROLL NO:**  212224110053
+### **DATE OF EXPERIMENT:**  24.18.2025
 
 ---
 
@@ -117,7 +117,7 @@ while True:
 
 ## **OUTPUT:**  
 When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
-```
+
 ![Screenshot 2025-03-24 110354](https://github.com/user-attachments/assets/bb28e6ca-6783-4ff3-8499-012f01afe263)
 
 ![Screenshot 2025-03-24 110419](https://github.com/user-attachments/assets/ec2a712a-a413-4930-82ea-ecb82ad6e1dc)
@@ -128,7 +128,7 @@ When the above program is executed, the output on the serial monitor will displa
 
 
 
-```
+
 ---
 
 ## **RESULT:**  
